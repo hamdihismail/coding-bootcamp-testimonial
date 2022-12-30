@@ -24,7 +24,7 @@ body {
 
 .main {
   display: flex;
-  width: 200vw;
+  width: 100vw;
   max-height: 800px; }
   .main .testimonial-1 {
     width: 100vw;
