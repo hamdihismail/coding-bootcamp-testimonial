@@ -23,7 +23,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](/Screenshot%202022-12-29%20at%2021-03-38%20Frontend%20Mentor%20Coding%20Bootcamp%20Testimonials%20Slider.png)
+![](/Screenshot%202022-12-29%20at%2022-30-37%20Frontend%20Mentor%20Coding%20Bootcamp%20Testimonials%20Slider.png)
 
 
 
