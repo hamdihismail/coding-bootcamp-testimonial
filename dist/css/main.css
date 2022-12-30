@@ -89,7 +89,8 @@ body {
       min-height: 220px;
       font-weight: 300;
       font-size: 2rem;
-      line-height: 44px; }
+      line-height: 44px;
+      padding-top: 64px; }
       @media (max-width: 630px) {
         .main .testimonial-text .text-body {
           max-width: 311px;
@@ -251,7 +252,8 @@ body {
       min-height: 220px;
       font-weight: 300;
       font-size: 2rem;
-      line-height: 44px; }
+      line-height: 44px;
+      padding-top: 64px; }
       @media (max-width: 630px) {
         .main .testimonial-text .text-body {
           max-width: 311px;
