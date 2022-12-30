@@ -1,7 +1,8 @@
 @import 'utilities';
 body{
     max-width: 100%;
-    height: 100vh;
+    min-height: 100%;
+    overflow-x: hidden;
 }
 
 .main{
@@ -55,7 +56,7 @@ body{
         width: 610px;
         height: 150.94px;
         left: 0px;
-        bottom: 0;
+        top: 649.06px;
         // top: 649.06px;
         @media (max-width: 630px) {
             width: 285px;
@@ -250,7 +251,7 @@ body{
         width: 610px;
         height: 150.94px;
         left: 0px;
-        bottom: 0;
+        top: 649.06px;
         // top: 649.06px;
         @media (max-width: 630px) {
             width: 285px;
