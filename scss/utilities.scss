@@ -1,0 +1,55 @@
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&display=swap');
+
+// resets
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    // transition: all 0.4s ease-in-out;
+    overflow: hidden;
+}
+
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+
+// colors
+$colorDarkBlue: hsl(240, 38%, 20%);
+$colorGrayishBlue: hsl(240, 18%, 77%);
+
+// font size
+$fontSizeNormal: 2rem;
+$fontSizeNormalMobile: 1.125rem;
+$fontSizeSmall: 1.25rem;
+$fontSizeSmallMobile: 0.938rem;
+// font weight
+$fontWeightLight: 300;
+$fontWeightNormal: 500;
+$fontWeightBold: 700;
+
+// hover
+.btn:hover{
+    background-color: #D3629D;
+    opacity: 0.75;
+    // cursor: pointer;
+   
+}
+
+
+// button
+button{
+    border: none;
+    cursor: pointer;
+}
+
+// .slide{
+//     transition-property: translateX;
+//     transition: translateX  ;
+// }

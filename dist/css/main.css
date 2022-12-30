@@ -1,0 +1,352 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+  overflow: hidden; }
+
+*:before,
+*:after {
+  box-sizing: border-box; }
+
+.btn:hover {
+  background-color: #D3629D;
+  opacity: 0.75; }
+
+button {
+  border: none;
+  cursor: pointer; }
+
+body {
+  max-width: 100%;
+  min-height: 100vh; }
+
+.main {
+  display: flex;
+  width: 200vw;
+  min-height: 100vh; }
+  .main .testimonial-1 {
+    width: 100vw;
+    min-height: 100vh;
+    transition: transform 0.4s ease-in-out; }
+  .main .background-pattern {
+    background: url(/images/pattern-bg.svg) no-repeat center center/cover;
+    position: absolute;
+    width: 697px;
+    height: 657px;
+    top: 50px;
+    right: 73px; }
+    @media (max-width: 630px) {
+      .main .background-pattern {
+        width: 326.5px;
+        height: 307.5px;
+        right: 24.5px;
+        left: 24px;
+        top: 24px; } }
+  .main .background-quotes {
+    background: url(/images/pattern-quotes.svg) no-repeat center center/cover;
+    position: absolute;
+    width: 120px;
+    height: 100px;
+    left: 260px;
+    top: 214px; }
+    @media (max-width: 630px) {
+      .main .background-quotes {
+        width: 60px;
+        height: 50px;
+        left: 158px;
+        top: 364px; } }
+  .main .background-curve {
+    background: url(/images/pattern-curve.svg) no-repeat center center/cover;
+    position: absolute;
+    width: 610px;
+    height: 150.94px;
+    left: 0px;
+    bottom: 0; }
+    @media (max-width: 630px) {
+      .main .background-curve {
+        width: 285px;
+        height: 72px; } }
+  .main .testimonial-text {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    max-width: 635px;
+    left: 165px;
+    top: 214px;
+    margin-right: auto;
+    z-index: 10; }
+    @media (max-width: 630px) {
+      .main .testimonial-text {
+        max-width: 311px;
+        min-height: 228px;
+        left: 32px;
+        top: 364px; } }
+    .main .testimonial-text .text-body {
+      color: #202046;
+      max-width: 635px;
+      min-height: 220px;
+      font-weight: 300;
+      font-size: 2rem;
+      line-height: 44px; }
+      @media (max-width: 630px) {
+        .main .testimonial-text .text-body {
+          max-width: 311px;
+          min-height: 144px;
+          font-size: 1.125rem;
+          line-height: 24px;
+          text-align: center; } }
+    .main .testimonial-text .small-text {
+      display: flex;
+      gap: 10px;
+      max-width: 265px;
+      min-height: 38px; }
+      @media (max-width: 630px) {
+        .main .testimonial-text .small-text {
+          flex-direction: column;
+          margin-left: 103px;
+          gap: 0;
+          align-items: flex-start; } }
+      .main .testimonial-text .small-text .name {
+        color: #202046;
+        font-weight: 700;
+        font-size: 1.25rem;
+        line-height: 38px; }
+        @media (max-width: 650px) {
+          .main .testimonial-text .small-text .name {
+            font-size: 0.938rem;
+            line-height: 20px;
+            text-align: center; } }
+      .main .testimonial-text .small-text .job {
+        color: #babacf;
+        font-weight: 500;
+        font-size: 1.25rem;
+        line-height: 38px; }
+        @media (max-width: 630px) {
+          .main .testimonial-text .small-text .job {
+            font-size: 0.938rem;
+            line-height: 20px;
+            text-align: center;
+            padding-left: 6px; } }
+  .main .img-container-1 {
+    background: url(/images/image-tanya.jpg) no-repeat center center/cover;
+    display: flex;
+    position: absolute;
+    width: 540px;
+    height: 540px;
+    top: 113px;
+    right: 165px; }
+    @media (max-width: 630px) {
+      .main .img-container-1 {
+        width: 254px;
+        height: 253px;
+        right: 60px;
+        top: 54px;
+        left: 61px; } }
+  .main .btn-container {
+    overflow: hidden;
+    display: flex;
+    position: absolute;
+    width: 112px;
+    height: 56px;
+    top: 625px;
+    right: 531px;
+    justify-content: center;
+    align-items: center;
+    background: #FFFFFF;
+    box-shadow: 0px 15px 20px -10px rgba(36, 36, 113, 0.0991313);
+    border-radius: 28px; }
+    @media (max-width: 650px) {
+      .main .btn-container {
+        width: 80px;
+        height: 40px;
+        left: 148px;
+        top: 287px; } }
+    .main .btn-container .icon-container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 50%;
+      height: 100%; }
+    .main .btn-container .next-btn {
+      background: url(/images/icon-next.svg) no-repeat center center/cover;
+      width: 8px;
+      height: 16px;
+      z-index: 20; }
+      @media (max-width: 630px) {
+        .main .btn-container .next-btn {
+          width: 5.71px;
+          height: 11.43px; } }
+    .main .btn-container .prev-btn {
+      background: url(/images/icon-prev.svg) no-repeat center center/cover;
+      position: absolute;
+      width: 8px;
+      height: 16px;
+      z-index: 20; }
+      @media (max-width: 630px) {
+        .main .btn-container .prev-btn {
+          width: 5.71px;
+          height: 11.43px; } }
+  .main .testimonial-2 {
+    position: absolute;
+    display: block;
+    width: 100vw;
+    min-height: 100vh;
+    transition: transform 0.4s ease-in-out; }
+  .main .background-pattern {
+    background: url(/images/pattern-bg.svg) no-repeat center center/cover;
+    position: absolute;
+    width: 697px;
+    height: 657px;
+    top: 50px;
+    right: 73px; }
+    @media (max-width: 630px) {
+      .main .background-pattern {
+        width: 326.5px;
+        height: 307.5px;
+        right: 24.5px;
+        top: 24px; } }
+  .main .background-quotes {
+    background: url(/images/pattern-quotes.svg) no-repeat center center/cover;
+    position: absolute;
+    width: 120px;
+    height: 100px;
+    left: 260px;
+    top: 214px; }
+    @media (max-width: 630px) {
+      .main .background-quotes {
+        width: 60px;
+        height: 50px;
+        left: 158px;
+        top: 364px; } }
+  .main .background-curve {
+    background: url(/images/pattern-curve.svg) no-repeat center center/cover;
+    position: absolute;
+    width: 610px;
+    height: 150.94px;
+    left: 0px;
+    bottom: 0; }
+    @media (max-width: 630px) {
+      .main .background-curve {
+        width: 285px;
+        height: 72px; } }
+  .main .testimonial-text {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    max-width: 635px;
+    left: 165px;
+    top: 214px;
+    z-index: 10; }
+    @media (max-width: 630px) {
+      .main .testimonial-text {
+        max-width: 311px;
+        min-height: 228px;
+        left: 32px;
+        top: 364px; } }
+    .main .testimonial-text .text-body {
+      color: #202046;
+      max-width: 635px;
+      min-height: 220px;
+      font-weight: 300;
+      font-size: 2rem;
+      line-height: 44px; }
+      @media (max-width: 630px) {
+        .main .testimonial-text .text-body {
+          max-width: 311px;
+          min-height: 144px;
+          font-size: 1.125rem;
+          line-height: 24px;
+          text-align: center; } }
+    .main .testimonial-text .small-text {
+      display: flex;
+      gap: 10px;
+      max-width: 265px;
+      min-height: 38px; }
+      @media (max-width: 630px) {
+        .main .testimonial-text .small-text {
+          flex-direction: column;
+          margin-left: 103px;
+          gap: 0;
+          align-items: flex-start; } }
+      .main .testimonial-text .small-text .name {
+        color: #202046;
+        font-weight: 700;
+        font-size: 1.25rem;
+        line-height: 38px; }
+        @media (max-width: 650px) {
+          .main .testimonial-text .small-text .name {
+            font-size: 0.938rem;
+            line-height: 20px;
+            text-align: center; } }
+      .main .testimonial-text .small-text .job {
+        color: #babacf;
+        font-weight: 500;
+        font-size: 1.25rem;
+        line-height: 38px; }
+        @media (max-width: 630px) {
+          .main .testimonial-text .small-text .job {
+            font-size: 0.938rem;
+            line-height: 20px;
+            text-align: center;
+            padding-left: 6px; } }
+  .main .img-container-2 {
+    background: url(/images/image-john.jpg) no-repeat center center/cover;
+    display: flex;
+    position: absolute;
+    width: 540px;
+    height: 540px;
+    top: 113px;
+    right: 165px; }
+    @media (max-width: 630px) {
+      .main .img-container-2 {
+        width: 254px;
+        height: 253px;
+        right: 60px;
+        top: 54px;
+        left: 61px; } }
+  .main .btn-container {
+    overflow: hidden;
+    display: flex;
+    position: absolute;
+    width: 112px;
+    height: 56px;
+    top: 625px;
+    right: 531px;
+    justify-content: center;
+    align-items: center;
+    background: #FFFFFF;
+    box-shadow: 0px 15px 20px -10px rgba(36, 36, 113, 0.0991313);
+    border-radius: 28px; }
+    @media (max-width: 630px) {
+      .main .btn-container {
+        width: 80px;
+        height: 40px;
+        left: 148px;
+        top: 287px; } }
+    .main .btn-container .icon-container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 50%;
+      height: 100%; }
+    .main .btn-container .next-btn {
+      background: url(/images/icon-next.svg) no-repeat center center/cover;
+      width: 8px;
+      height: 16px;
+      z-index: 10; }
+      @media (max-width: 630px) {
+        .main .btn-container .next-btn {
+          width: 5.71px;
+          height: 11.43px; } }
+    .main .btn-container .prev-btn {
+      background: url(/images/icon-prev.svg) no-repeat center center/cover;
+      position: absolute;
+      width: 8px;
+      height: 16px;
+      z-index: 20; }
+      @media (max-width: 630px) {
+        .main .btn-container .prev-btn {
+          width: 5.71px;
+          height: 11.43px; } }
